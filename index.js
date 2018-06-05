@@ -3,6 +3,7 @@ var kittens=["Milo", "Otis", "Garfield"]
 function destructivelyAppendKitten(name){
   kittens.push(name)
   return kittens
+<<<<<<< HEAD
 }
 function destructivelyPrependKitten(name){
   kittens.unshift(name)
@@ -31,4 +32,6 @@ function removeLastKitten(){
 function removeFirstKitten(){
   var kitten = kittens.slice(1, kittens.length - 0)
   return kitten
+=======
+>>>>>>> 9a742022600763c9caadbc7ad2d39eae7d19b26e
 }
